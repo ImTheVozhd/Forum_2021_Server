@@ -109,7 +109,7 @@ app.post('/thread/:id_thread/topic/:id_topic/create_new_message', (req, res) => 
 async function start()
 {
     try{
-        await mongoose.connect('mongodb+srv://Doktorfish0078:qwertqwert@cloud-yesnogame.xd6dj.mongodb.net/cloudDB?retryWrites=true&w=majority', {
+        await mongoose.connect('mongodb+srv://1mTheVozhd:qwertyqwerty@cloud-forum.xd6dj.mongodb.net/forumDB?retryWrites=true&w=majority', {
             useNewUrlParser: true,
         })
         .then(() => console.log('MongoDb connected'))
